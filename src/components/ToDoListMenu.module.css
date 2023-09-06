@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+}
+
+.menu a {
+    color: var(--lightblue);
+    text-decoration: none;
+}
+
+.menu a.active {
+  text-decoration: underline;
+  text-decoration-color: var(--lightblue);
+  text-decoration-thickness: 0.2rem;
+  font-weight: 400;
+}
+
+.menu .badge {
+  background-color: var(--lightblue);
+  color: var(--mutedwhite);
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 6px;
+}

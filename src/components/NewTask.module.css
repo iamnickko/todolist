@@ -1,0 +1,29 @@
+.form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form label {
+    display: block;
+}
+
+.form input, textarea {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #d9e2f1;
+    padding: 5px;
+    margin-bottom: 0.5rem;
+    font: inherit;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+.btn {
+    color: #074EEE;
+    background-color: #fff;
+    border: solid 1px #074EEE;
+}

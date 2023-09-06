@@ -1,0 +1,67 @@
+.todo-item {
+  margin-bottom: 1rem;
+}
+
+.todo-item:last-child .line {
+  border: none;
+  margin: 0 auto;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.text h2 {
+  color: var(--mutedwhite);
+}
+
+.text p {
+  font-size: 12px;
+}
+
+.deadline {
+  color: var(--mutedwhite);
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  font-size: 12px;
+  gap: 1rem;
+}
+
+.actions span:hover {
+  cursor: pointer;
+  color: var(--mutedwhite);
+}
+
+.actions span.active:active,
+.actions span.complete:active {
+  color: var(--lightblue);
+}
+
+.archive {
+  color: var(--delete);
+}
+.archive:active {
+  color: var(--delete);
+}
+
+.line {
+  border: solid 1px var(--dark);
+  margin: 1rem auto;
+}
+.show-details:hover {
+  cursor: pointer;
+}
+
+.show-details {
+  display: flex;
+  align-items: center;
+
+}
